@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Guests area",
+};
+
 function Page() {
   return (
     <div className="page">
