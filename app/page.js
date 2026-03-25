@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import bg from "@/public/bg.png";
+import Spinner from "./_components/Spinner";
 
 export default function Page() {
   return (

@@ -1,6 +1,4 @@
 import Image from "next/image";
-import about1 from "@/public/about-1.jpg";
-import about2 from "@/public/about-2.jpg";
 import Link from "next/link";
 
 export const metadata = {
@@ -36,10 +34,11 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="col-span-2">
+      <div className="col-span-2 aspect-square relative">
         <Image
-          placeholder="blur"
-          src={about1}
+          src="/about-1.jpg"
+          fill
+          className="object-cover"
           alt="Family sitting around a fire pit in front of cabin"
         />
       </div>
